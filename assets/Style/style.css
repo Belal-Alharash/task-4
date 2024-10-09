@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+.bh-nav1{
+    background-color: #3fbbc0;
+}
+.bh-font-nav1{
+    font-size: 12px;
+}
+.bh-logo-width{
+    width: 150px;
+}
+.bh-font-nav2{
+    font-size: 13px;
+}
+.bh-home{
+    color: #3fbbc0;
+}
+.bh-btn{
+    background-color: #3fbbc0;
+}
+.bh-btn:hover{
+    background-color: #3fbbc0;
+}
+.bh-carousel-hight{
+    height: calc(100vh - 76px);
+}
+.bh-border-color{
+    border-color: #3fbbc0 !important;
+}
+.bh-carousel-indicators{
+    height: 20px !important;
+    width: 20px !important;
+}
+.carousel-indicators .active{
+    background-color: #3fbbc0 !important;
+}
+.bh-line{
+    width: 50px;
+    border-color: #3fbbc0 !important;
+}
+.bh-width-icon-service{
+    width: 40px;
+    height: 40px;
+    color: #3fbbc0;
+}
+.bh-font-service-p{
+    font-size: 12px !important;
+}
+.bh-bg-appointment{
+    background-color: #f7fcfc;
+}
+.bh-border{
+    --bs-list-group-border-color: rgb(255, 255, 255);
+}
+.bh-list-group-item-action{
+    --bs-list-group-active-bg: white !important;
+    --bs-list-group-active-border-color: #3fbbc0 !important;
+    --bs-list-group-active-color: #3fbbc0 !important;
+}
+.bh-map{
+    height: 400px;
+}
+.bh-width-icon-cotact{
+    width: 60px;
+    height: 60px;
+    color: #3fbbc0;
+    border-style: dotted !important;
+    border-color: #3fbbc0 !important;
+}
+.bh-width-icon-footer{
+    width: 30px;
+    height: 30px;
+}
+@media (max-width: 576px){
+    .bh-nav1{
+        display: none;
+    }
+    .bh-carousel-hight{
+        height: calc(100vh - 50px);
+    }
+    .bh-mobile-margin-nav{
+        margin-inline: 0 !important ;
+    }
+}

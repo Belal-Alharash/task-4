@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <!-- Bootstrap style link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Style css link-->
+    <link rel="stylesheet" href="./assets/Style/style.css">
+    <title>TASK-4</title>
+</head>
+<body>
+  <nav class="navbar bh-nav1 py-1 shadow-lg">
+    <div class="container-fluid mx-5 px-4 ">
+      <span class="navbar-brand py-0  mb-0 bh-font-nav1 fw-light text-white"><i class="fa-solid fa-clock"></i> Monday - Saturday 8AM to 10PM</span>
+      <span class="navbar-brand py-0  mb-0 bh-font-nav1 me-2 fw-light text-white"><i class="fa-solid fa-mobile-screen"></i> Call us now +1 5589 55488 55</span>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-body-white py-0 shadow-lg w-100 bg-white sticky-top z-3">
+    <div class="container-fluid mx-5 px-4 bh-mobile-margin-nav">
+      <a class="navbar-brand me-0 bh-logo-width " href="#"><img class="w-100" src="./assets/Images/logo.png" alt="MEDICIO"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 mb-lg-0 bh-font-nav2">
+          <li class="nav-item">
+            <a class="nav-link bh-home" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">DEPARTMENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">DOCTORS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             DROPDOWN
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" herf="#">CONTACT</a>
+          </li>
+          <li class="nav-link ps-0">
+            <button class="btn bh-btn text-white bh-font-nav2" type="submit">Make an Appointment</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle bg-secondary bh-carousel-indicators" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class=" rounded-circle bg-secondary bh-carousel-indicators"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class=" rounded-circle bg-secondary bh-carousel-indicators"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/Images/hero-carousel-1.jpg" class="object-fit-none d-block w-100 bh-carousel-hight" alt="doctor-picture">
+        <div class="bg-white bg-opacity-75 position-absolute w-75 top-50 start-50 translate-middle shadow-lg text-center py-3 px-3 rounded border-top bh-border-color border-5 ">
+          <h5 class="fs-4">First slide label</h5>
+          <p>Some representative placeholder content for the first slide. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem corrupti esse eaque inventore est assumenda illo ex voluptates iusto nemo.</p>
+          <button type="button" class="btn bh-btn text-white px-5">Read More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/Images/hero-carousel-2.jpg" class="object-fit-none d-block w-100 bh-carousel-hight" alt="doctor-picture">
+        <div class="bg-white bg-opacity-75 position-absolute w-75 top-50 start-50 translate-middle shadow-lg text-center py-3 px-3 rounded border-top bh-border-color border-5">
+          <h5 class="fs-4">Second slide label</h5>
+          <p>Some representative placeholder content for the Second slide. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem corrupti esse eaque inventore est assumenda illo ex voluptates iusto nemo.</p>
+          <button type="button" class="btn bh-btn text-white px-5">Read More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/Images/hero-carousel-3.jpg" class="object-fit-none d-block w-100 bh-carousel-hight" alt="doctor-picture">
+        <div class="bg-white bg-opacity-75 position-absolute w-75 top-50 start-50 translate-middle shadow-lg text-center py-3 px-3 rounded border-top bh-border-color border-5">
+          <h5 class="fs-4">Third slide label</h5>
+          <p>Some representative placeholder content for the Third slide. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem corrupti esse eaque inventore est assumenda illo ex voluptates iusto nemo.</p>
+          <button type="button" class="btn bh-btn text-white px-5">Read More</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+  <section class="container-fluid py-5 px-3 w-100">
+    <div class="text-center d-flex flex-column align-items-center">
+      <h2 class="fs-4 fw-bolder">Service</h2>
+      <div class="bh-line my-3 border rounded-pill"></div>
+      <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quaerat iste?</p>
+    </div>
+    <div class="container-fluid row mx-0 my-4">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card text-center border-0 py-3 px-3 d-flex justify-content-center">
+          <div class="w-100 d-flex justify-content-center">
+            <i class="fa-solid fa-heart-pulse fs-4 border rounded-circle d-flex align-items-center justify-content-center shadow bh-width-icon-service"></i>
+          </div>
+          <h5 class="card-title py-2 pt-3">Heart Health</h5>
+          <div class="w-100 d-flex justify-content-center">
+            <div class="bh-line mb-2 border rounded-pill"></div>
+          </div>
+          <div class="d-flex justify-content-center w-100">
+            <p class="bh-font-service-p w-75">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div> 
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card text-center py-3 border-0 px-3">
+            <div class="w-100 d-flex justify-content-center">
+              <i class="fa-solid fa-brain fs-4 border rounded-circle d-flex align-items-center justify-content-center shadow bh-width-icon-service"></i>
+            </div>
+            <h5 class="card-title py-2 pt-3">Brain Health</h5>
+            <div class="w-100 d-flex justify-content-center">
+              <div class="bh-line mb-2 border rounded-pill"></div>
+            </div>
+            <div class="d-flex justify-content-center w-100">
+              <p class="bh-font-service-p w-75">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div> 
+        </div>
+      </div>  
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card text-center py-3 border-0 px-3">
+          <div class="w-100 d-flex justify-content-center">
+            <i class="fa-solid fa-lungs fs-4 border rounded-circle d-flex align-items-center justify-content-center shadow bh-width-icon-service"></i>
+          </div>
+          <h5 class="card-title py-2 pt-3">Lung Health</h5>
+          <div class="w-100 d-flex justify-content-center">
+            <div class="bh-line mb-2 border rounded-pill"></div>
+          </div>
+          <div class="d-flex justify-content-center w-100">
+            <p class="bh-font-service-p w-75">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div> 
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card text-center border-0 py-3 px-3">
+          <div class="w-100 d-flex justify-content-center">
+            <i class="fa-solid fa-tooth fs-4 border rounded-circle d-flex align-items-center justify-content-center shadow bh-width-icon-service"></i>
+          </div>
+          <h5 class="card-title py-2 pt-3">Dental Care</h5>
+          <div class="w-100 d-flex justify-content-center">
+            <div class="bh-line mb-2 border rounded-pill"></div>
+          </div>
+          <div class="d-flex justify-content-center w-100">
+            <p class="bh-font-service-p w-75">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div> 
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card text-center border-0 py-3 px-3">
+          <div class="w-100 d-flex justify-content-center">
+            <i class="fa-solid fa-stethoscope fs-4 border rounded-circle d-flex align-items-center justify-content-center shadow bh-width-icon-service"></i>
+          </div>
+          <h5 class="card-title py-2 pt-3">General Health</h5>
+          <div class="w-100 d-flex justify-content-center">
+            <div class="bh-line mb-2 border rounded-pill"></div>
+          </div>
+          <div class="d-flex justify-content-center w-100">
+            <p class="bh-font-service-p w-75">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div> 
+        </div>
+      </div> 
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card text-center border-0 py-3 px-3">
+          <div class="w-100 d-flex justify-content-center">
+            <i class="fa-solid fa-capsules fs-4 border rounded-circle d-flex align-items-center justify-content-center shadow bh-width-icon-service"></i>
+          </div>
+          <h5 class="card-title py-2 pt-3">Pharmacy</h5>
+          <div class="w-100 d-flex justify-content-center">
+            <div class="bh-line mb-2 border rounded-pill"></div>
+          </div>
+          <div class="d-flex justify-content-center w-100">
+            <p class="bh-font-service-p w-75">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div> 
+        </div> 
+      </div>  
+    </div>
+  </section>
+  <section class="container-fluid py-5 px-3 w-100 bh-bg-appointment">
+    <div class="text-center d-flex flex-column align-items-center">
+      <h2 class="fs-4 fw-bolder">MAKE AN APPOINTMENT</h2>
+      <div class="bh-line border rounded-pill my-3"></div>
+      <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quaerat iste?</p>
+    </div>
+    <div class="container-fluid mx-0 my-5">
+      <div class="row g-3 px-5 mx-1">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <input type="text" class="form-control" placeholder="Your Name"/>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <input type="email" class="form-control" placeholder="Your Email"/>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <input type="number" class="form-control" placeholder="Your Phone"/>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <input type="date" class="form-control"/>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <select class="form-select " id="floatingSelectGrid">
+            <option selected>Select Department</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <label class="d-none" for="floatingSelectGrid">Works with selects</label>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <select class="form-select " id="floatingSelectGrid">
+            <option selected>Select Doctor</option>
+            <option value="1">Dr.Ali</option>
+            <option value="2">Dr.Ahmed</option>
+            <option value="3">Dr.Belal</option>
+          </select>
+          <label class="d-none" for="floatingSelectGrid">Works with selects</label>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Message (Optional)" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Message (Optional)</label>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center my-4">
+      <button type="button" class="btn bh-btn text-white px-5"><p class="px-4 m-auto">Make an Appointment</p></button>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid pt-5 pb-3 px-3 w-100">
+    <div class="text-center d-flex flex-column align-items-center">
+      <h2 class="fs-4 fw-bolder">Departments</h2>
+      <div class="bh-line border rounded-pill my-3"></div>
+      <p class="fs-6 m">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quaerat iste?</p>
+    </div>
+    <div class="row px-5 my-5 mx-0">
+      <div class="col-lg-3 col-md-4 col-sm-12">
+        <div class="list-group border border-top-0 border-bottom-0 border-start-0" id="list-tab" role="tablist">
+          <a class="border-top-0 border-bottom-0 border-start-0 bh-border rounded-0 my-4 py-0 list-group-item list-group-item-action bh-list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Cardiology</a>
+          <a class="border-top-0 border-bottom-0 border-start-0 bh-border my-4 py-0 list-group-item list-group-item-action bh-list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Neurology</a>
+          <a class="border-top-0 border-bottom-0 border-start-0 bh-border my-4 py-0 list-group-item list-group-item-action bh-list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Hepatology</a>
+          <a class="border-top-0 border-bottom-0 border-start-0 bh-border my-4 py-0 list-group-item list-group-item-action bh-list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Pediatrics</a>
+          <a class="border-top-0 border-bottom-0 border-start-0 bh-border rounded-0 my-4 py-0 list-group-item list-group-item-action bh-list-group-item-action" id="list-last-list" data-bs-toggle="list" href="#list-last" role="tab" aria-controls="list-last">Ophthalmologists</a>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-8 col-sm-12">
+        <div class="w-100 tab-content py-4 h-100" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+            <div class="row">
+              <div class="col-lg-7 col-md-12 col-md-12">
+                <h3 class="fw-normal fs-4">Cardiology</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. dolorum nulla cupiditate quod dicta porro quam, explicabo exercitationem iste id illum minus eveniet, perferendis incidunt!</p>
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-12">
+                <img src="./assets/Images/departments-1.jpg" class="img-fluid " alt="a departments">
+              </div> 
+            </div>
+          </div>
+          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+            <div class="row">
+              <div class="col-lg-7 col-md-12 col-md-12">
+                <h3 class="fw-normal fs-4">Neurology</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. dolorum nulla cupiditate quod dicta porro quam, explicabo exercitationem iste id illum minus eveniet, perferendis incidunt!</p>
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-12">
+                <img src="./assets/Images/departments-2.jpg" class="img-fluid h-100" alt="a departments">
+              </div> 
+            </div>
+          </div>
+          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+            <div class="row">
+              <div class="col-lg-7 col-md-12 col-md-12">
+                <h3 class="fs-4 fw-normal">Hepatology</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. dolorum nulla cupiditate quod dicta porro quam, explicabo exercitationem iste id illum minus eveniet, perferendis incidunt!</p>
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-12">
+                <img src="./assets/Images/departments-3.jpg" class="img-fluid h-100" alt="a departments">
+              </div> 
+            </div>
+          </div>
+          <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+            <div class="row">
+              <div class="col-lg-7 col-md-12 col-md-12">
+                <h3 class="fs-4 fw-normal">Pediatrics</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. dolorum nulla cupiditate quod dicta porro quam, explicabo exercitationem iste id illum minus eveniet, perferendis incidunt!</p>
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-12">
+                <img src="./assets/Images/departments-4.jpg" class="img-fluid h-100" alt="a departments">
+              </div> 
+            </div>
+          </div>
+          <div class="tab-pane fade" id="list-last" role="tabpanel" aria-labelledby="list-last-list">
+            <div class="row">
+              <div class="col-lg-7 col-md-12 col-md-12">
+                <h3 class="fs-4 fw-normal">Ophthalmologists</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. dolorum nulla cupiditate quod dicta porro quam, explicabo exercitationem iste id illum minus eveniet, perferendis incidunt!</p>
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-12">
+                <img src="./assets/Images/departments-5.jpg" class="img-fluid h-100" alt="a departments">
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid pt-5 pb-4 px-3 w-100 bh-bg-appointment">
+    <div class="text-center d-flex flex-column align-items-center">
+      <h2 class="fs-4 fw-bolder">Frquently Asked Questions</h2>
+      <div class="bh-line border rounded-pill my-3"></div>
+      <p class="fs-6 m">Lorem ipsum dolor sit amet consectetur onsectetur adipisicing elit. Nulla, quaerat iste?</p>
+    </div>
+    <div class="accordion mt-5 px-5 mx-1" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header ">
+          <button class="accordion-button bh-accrdion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Lorem ipsum dolor sit amet consectetur ?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item mt-3">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit ?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item mt-3">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid px-0 pt-5 pb-4 w-100">
+    <div class="text-center d-flex flex-column align-items-center">
+      <h2 class="fs-4 fw-bolder">Contact</h2>
+      <div class="bh-line border rounded-pill my-3"></div>
+      <p class="fs-6 ">Lorem ipsum dolor sit amet consectetur onsectetur adipisicing elit. Nulla, quaerat iste?</p>
+    </div>
+    <iframe class="w-100 bh-map mt-5 mx-2 mb-5 px-0 mb-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.355698220108!2d35.804746735876684!3d35.52899360543356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1526ada7c38f8879%3A0x5f66e4e99dbb7a47!2sfocal%20X%20agency!5e0!3m2!1sar!2sde!4v1728422722224!5m2!1sar!2sde"></iframe>
+    <div class="row g-3 px-5">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="row g-3">
+          <div class="col-12">
+            <div class="card text-center shadow py-3 px-3">
+              <div class="d-flex justify-content-center">
+                <i class="fa-solid fa-house-chimney fs-5 border border-2 rounded-circle d-flex align-items-center justify-content-center bh-width-icon-cotact"></i>
+              </div>
+              <h5 class="card-title py-0 pt-3 fw-normal">Our Address</h5>
+              <a href="#" class="bh-home fs-6 text-decoration-none">View on Map</a>
+            </div>
+          </div>
+          <div class="col-6 mb-3">
+            <div class="card text-center shadow h-100 mt-3 py-3 px-3">
+              <div class="d-flex justify-content-center">
+                <i class="fa-solid fa-phone-flip fs-5 border border-2 rounded-circle d-flex align-items-center justify-content-center bh-width-icon-cotact"></i>
+              </div>
+              <h5 class="card-title py-0 pt-3 fw-normal">Phone Number</h5>
+              <a href="#" class="bh-home text-decoration-none fs-6">Call Us Now</a>
+            </div>
+          </div>
+          <div class="col-6 mb-3">
+            <div class="h-100 card text-center shadow py-3 mt-3 px-3">
+              <div class="d-flex justify-content-center">
+                <i class="fa-solid fa-envelope fs-5 border border-2 rounded-circle d-flex align-items-center justify-content-center bh-width-icon-cotact"></i>
+              </div>
+              <h5 class="card-title py-0 pt-3 fw-normal">Email Address</h5>
+              <a href="#" class="bh-home text-decoration-none fs-6">Send Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="card text-center shadow h-100 py-3 px-3">
+          <form class="row g-3">
+            <div class="col-6">
+              <input type="text" class="form-control my-2" id="inputEmail4" placeholder="Enter your first name">
+            </div>
+            <div class="col-6">
+              <input type="email" class="form-control my-2" id="inputEmail4" placeholder="Enter your email">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control my-2" id="inputsubject" placeholder="Enter the subject">
+            </div>
+            <div class="col-12">
+              <textarea class="form-control my-2" id="exampleFormControlTextarea1" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn bh-btn text-white px-5 my-1">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="container-fluid pt-5 pb-4  w-100 bh-bg-appointment">
+    <div class="row border border-start-0 border-top-0 border-end-0 border-1 border-black mx-3">
+      <div class="col-lg-4 col-md-8  col-sm-12 card border-0 bh-bg-appointment">
+        <div class="card-body">
+          <h5 class="card-title mb-4 fw-normal fs-3">Midicio</h5>
+          <p class="card-text">A108 Adam Street New York NY 533025.</p>
+          <p class="card-text">Phone : <span class="fw-light"> 0924568623</span></p>
+          <p class="card-text">Email : <span class="fw-light"> info@gmail.com</span></p>
+          <div class="d-flex">
+            <a href="#" class="ms-1 text-decoration-none">
+              <i class="fa-brands fa-facebook-f fs-6 border rounded-circle border-secondary d-flex align-items-center justify-content-center bh-width-icon-footer  text-secondary"></i>
+            </a>
+            <a href="#" class="ms-1 text-decoration-none">
+              <i class="fa-brands fa-twitter fs-6 border rounded-circle border-secondary d-flex align-items-center justify-content-center bh-width-icon-footer  text-secondary"></i>
+            </a>
+            <a href="#" class="ms-1 text-decoration-none">
+              <i class="fa-brands fa-linkedin-in fs-6 border rounded-circle border-secondary d-flex align-items-center justify-content-center bh-width-icon-footer  text-secondary"></i>
+            </a>
+            <a href="#" class="ms-1 text-decoration-none">
+              <i class="fa-brands fa-instagram fs-6 border rounded-circle border-secondary d-flex align-items-center justify-content-center bh-width-icon-footer  text-secondary"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-12 card border-0 bh-bg-appointment">
+        <div class="card-body">
+          <h5 class="card-title fw-normal">Useful Links</h5>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Home</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">About us</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Service</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Terms of service</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Pravicy policy</li>
+          </ul>
+          </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-12 card border-0 bh-bg-appointment">
+        <div class="card-body">
+          <h5 class="card-title fw-normal">Our services</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Web Desgin</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Web Development</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Product Mangement</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Marketing</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Graphic Design</li>
+          </ul>
+          </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-12 card border-0 bh-bg-appointment">
+        <div class="card-body">
+          <h5 class="card-title fw-normal">Hic solutasetp</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Lorem, ipsum dolor.</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Lorem, ipsum.</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">loremdcdd</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Lorem, ipsum dolor.</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">svfgbhnhjjm Lorem.</li>
+          </ul>
+          </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-12 card border-0 bh-bg-appointment">
+        <div class="card-body">
+          <h5 class="card-title fw-normal">Nopis illum</h5>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Ispam</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Kuasdment dollar</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Trodellect</li>
+            <li class="list-group-item px-0 border-0 fw-light bh-bg-appointment">Flexo</li>
+          </ul>
+          </div>
+      </div>
+    </div>
+    <div class="text-center d-flex flex-column align-items-center">
+      <p class="fs-6 mt-4 mb-2"><i class="fa-regular fa-copyright"></i> Copyryght <span class="fw-bolder">Medicio</span>. All Rights Reserved.</p>
+      <a href="#" class="text-black text-decoration-none">Designed by <span class="bh-home">BootstrapMade</span></a>
+    </div>
+  </footer>
+  <!-- Bootstrap JS link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
